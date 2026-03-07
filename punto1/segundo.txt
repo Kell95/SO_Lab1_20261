@@ -1,0 +1,5 @@
+
+Este es el segundo archivo.
+El programa debe mostrar este texto despues del primero.
+Si aparece en pantalla, significa que wcat funciona correctamente.
+Fin del archivo 2.

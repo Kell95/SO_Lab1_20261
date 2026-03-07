@@ -1,0 +1,5 @@
+
+Hola, este es el primer archivo.
+Estoy probando el programa wcat.
+Este programa lee archivos linea por linea.
+Fin del archivo 1.

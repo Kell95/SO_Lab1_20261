@@ -1,0 +1,4 @@
+
+Laboratorio de Sistemas Operativos.
+Programa wcat en lenguaje C.
+Lectura de archivos usando fopen y fgets.
