@@ -24,7 +24,7 @@ la función que tiene como signaturá `void search_pattern(char *file_path, char
 la función que tiene como signatura `void read_files(int argc, char *argv[])` toma el contador y el array de argumentos para iterar por cada uno de las direcciones de archivos por la función `search_pattern()`
 
 
-### `void read_stdio(char *pattern)`
+### `read_stdio()`
 la función que tiene como signatura `void read_stdio(char *pattern)` toma el sdin y la lee línea por línea usando la función `getlines()` para luego comprobar si contiene el patrón usando la función `strstr()` y luego imprimirla.
 
 ## Problemas presentados con la implementacion e implementacion de IA
