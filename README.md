@@ -1,6 +1,6 @@
 # INFORME DE LABORATORIO 
 ## Integrantes 
-- [tu nombre aqui kelly]
+- Kelly Julieth Arango Henao
 - Brayan Stiven Jaraba Alvarez
 
 # Applicación 2: wgrep
