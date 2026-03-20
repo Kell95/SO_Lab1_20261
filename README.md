@@ -21,23 +21,23 @@ main(int argc, char *argv[])
 
 Es la función principal del programa y se encarga de coordinar todo el flujo de ejecución: recibe los archivos desde la línea de comandos, los abre, lee su contenido y lo muestra en pantalla.
 
-##fopen()##
+**fopen()**
 
 Función de la librería estándar que se utiliza para abrir un archivo en el modo especificado. En este programa se usa en modo lectura ("r"). Retorna un puntero de tipo FILE. Si no puede abrir el archivo, retorna NULL.
 
-##fgets()##
+**fgets()**
 
 Función que permite leer el contenido de un archivo línea por línea. Recibe un buffer donde almacena la línea leída y evita consumir demasiada memoria. Retorna NULL cuando llega al final del archivo.
 
-##printf()##
+**printf()**
 
 Función utilizada para mostrar información en la consola. En este programa imprime cada línea del archivo y también se usa para mostrar mensajes de error.
 
-##fclose()##
+**fclose()**
 
 Función que se utiliza para cerrar un archivo una vez que ha sido procesado. Libera los recursos asociados al archivo y es importante para evitar fugas de memoria.
 
-##exit() ##
+**exit() **
 
 Función que permite finalizar el programa inmediatamente.
 
@@ -69,6 +69,7 @@ Si aparece en pantalla, significa que wcat funciona correctamente.
 Fin del archivo 2.
 
 ```
+```
 --- tercero.txt
 
 Laboratorio de Sistemas Operativos.
@@ -77,12 +78,13 @@ Lectura de archivos usando fopen y fgets.
 ```
 
 Prueba 1: Lectura de un archivo
-
+```
 ./wcat primero.txt
-
+```
 Prueba 2: Lectura de múltiples archivos
-
+```
 ./wcat primero.txt segundo.txt tercero.txt
+```
 
 # Applicación 2: wgrep
 
