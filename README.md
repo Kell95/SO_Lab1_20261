@@ -164,7 +164,7 @@ este es un segundo archivo
 muy diferentes al otro
 ```
 
- # Aplicacióon 3: wzip y wunzip
+ # Aplicación 3: wzip y wunzip
 
 En esta aplicación se desarrollaron dos programas: wzip y wunzip, los cuales permiten comprimir y descomprimir archivos de texto. Ambos utilizan el algoritmo Run-Length Encoding (RLE), que consiste en agrupar caracteres repetidos consecutivamente. 
 
