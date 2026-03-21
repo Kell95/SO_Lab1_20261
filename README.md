@@ -242,34 +242,34 @@ Para comprobar que los programas wzip y wunzip funcionan correctamente, se reali
 
 Primero, se creó un archivo de prueba con contenido repetitivo:
 
-´´´
+```
 --- archivo.txt
 aaaaabbbbcc
 1234
 Facultad de Ingeniería
-´´´
+```
 
 Prueba 1: Compresión
 
 Se ejecutó el programa wzip para comprimir el archivo:
-´´´
+```
 ./wzip archivo.txt > archivo.z
-´´´
+```
 En este paso, el programa generó un archivo comprimido en formato binario, donde cada grupo de caracteres se guarda como la cantidad de repeticiones y el carácter.
 
 
 Prueba 2: Descompresión
 
 Luego, se utilizó wunzip para descomprimir el archivo generado:
-´´´
+```
 ./wunzip archivo.z
-´´´
+```
 Resultado obtenido
 
-´´´
+```
 aaaaabbbbcc
 1234
 Facultad de Ingeniería
-´´´
+```
 
 
