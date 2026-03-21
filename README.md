@@ -169,15 +169,18 @@ muy diferentes al otro
 En esta aplicación se desarrollaron dos programas: wzip y wunzip, los cuales permiten comprimir y descomprimir archivos de texto. Ambos utilizan el algoritmo Run-Length Encoding (RLE), que consiste en agrupar caracteres repetidos consecutivamente. 
 
 wzip reduce el tamaño del archivo almacenando cuántas veces se repite un carácter.
+
 wunzip reconstruye el archivo original a partir de esos datos.
 
 ## Funciones implementadas en el wzip
 
 
 Función principal encargada de la compresión.
+
 ```
 int main(int argc, char *argv[])
 ```
+
 Verifica que existan archivos de entrada
 Abre cada archivo
 Lee carácter por carácter
@@ -192,7 +195,9 @@ Finalmente escribe el último grupo
 
 Función principal encargada de la descompresión.
 
-```int main(int argc, char *argv[])
+```
+int main(int argc, char *argv[])
+
 ```
 Verifica los archivos de entrada
 Abre cada archivo
@@ -200,8 +205,7 @@ Lee pares (cantidad, carácter)
 Repite el carácter según la cantidad
 Imprime el resultado en pantalla
 
-fopen()
-
+**fopen()**
 Abre un archivo en modo lectura ("r").
 Retorna NULL si no se puede abrir.
 
