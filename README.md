@@ -18,8 +18,9 @@ Si el usuario no proporciona ningún archivo, el programa finaliza sin mostrar n
 
 ## Funciones implementadas en el wcat
 
+```
 main(int argc, char *argv[])
-
+```
 Es la función principal del programa y se encarga de coordinar todo el flujo de ejecución: recibe los archivos desde la línea de comandos, los abre, lee su contenido y lo muestra en pantalla.
 
 **fopen()**
@@ -197,7 +198,6 @@ Función principal encargada de la descompresión.
 
 ```
 int main(int argc, char *argv[])
-
 ```
 Verifica los archivos de entrada
 Abre cada archivo
