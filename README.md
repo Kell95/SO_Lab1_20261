@@ -1,7 +1,7 @@
 # INFORME DE LABORATORIO 
 ## Integrantes 
 - Kelly Julieth Arango Henao
-- 
+
   kjulieth.arangoh@udea.edu.co
   
   1036657098
