@@ -1,9 +1,16 @@
 # INFORME DE LABORATORIO 
 ## Integrantes 
 - Kelly Julieth Arango Henao
+- 
   kjulieth.arangoh@udea.edu.co
+  
   1036657098
+  
 - Brayan Stiven Jaraba Alvarez
+
+  b.jaraba@udea.edu.co
+
+  1032178608
 
  **Enlace video: https://drive.google.com/file/d/12X1VUTMA_tGMBvjcy65CqiKRQPLqKlpO/view?usp=drive_link**
   
